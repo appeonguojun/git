@@ -32,8 +32,8 @@ destroy(error)
 destroy(message)
 end on
 
-event open;
+event open;//
 	Open(w_bug)
-	RETURN
+	RETURN 
 end event
 
